@@ -1,0 +1,22 @@
+{
+  "name": "furgiven_back",
+  "version": "1.0.0",
+  "description": "Pruebitas",
+  "main": "index.js",
+  "scripts": {
+    "start:backend": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hothadan",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.16.0",
+    "nodemon": "^2.0.22",
+    "uuid": "^8.3.2"
+  }
+}
